@@ -3,9 +3,9 @@
 ## Key requirement: company needs documentation that salaried employees did or not get overtime each week
 
 ## Models:
-- Post -> date:date, rationable:text
-- User -> Devise gem
-- AdminUser -> STI from User.
+- x Post -> date:date, rationable:text
+- x User -> Devise gem
+- x AdminUser -> STI from User.
 
 ## Features:
 - Approval Workflow.
@@ -15,8 +15,8 @@
 - Need documentation for Overtime
 
 ## UI:
-- Bootstrap -> formatting
+- x Bootstrap -> formatting
 
 ## Refactor TODOS:
-- Add full_name method for users
+- x Add full_name method for users
 - Refactor user association integration test in post_spec
